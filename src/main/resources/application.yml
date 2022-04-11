@@ -1,0 +1,18 @@
+spring :
+    datasource:
+      url : TODO
+      username : root
+      password :
+      driver-class-name : comm.mysql.cj.jbdc.Driver
+
+  jpa :
+    database: MYSQL
+      show-sql : false
+
+      hibernate :
+        ddl-auto : update
+        properties :
+          hibernate :
+            dialect : org.hibernante.dialect.MySQL5Dialect
+server :
+  port : 8081
